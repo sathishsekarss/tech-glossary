@@ -3,6 +3,7 @@
 1.[Tokenization in LLM](#tokenization-in-llm)
 1.[Parameters in LLM](#parameters-in-llm)
 1.[Hugging face](#hugging-face)
+1.[RAG](#rag)
 
 ## tokenization-in-llm
 Tokens are the basic building blocks that Large Language Models (LLMs) use to process and generate text. Rather than reading whole words, a model breaks your input into smaller chunks—like subwords or characters—before converting them into numerical vectors to "think" and predict the next output.
@@ -61,3 +62,6 @@ During training, the model keeps adjusting these knobs until it becomes good at 
 
 ## hugging-face
 Hugging face site generally contains all the open source LLM models.  We can download the models and experiment with it.
+
+## rag
+Retrieval-Augmented Generation (RAG) is an AI technique that improves large language models by fetching facts from external data sources before writing an answer. Instead of relying only on its fixed training memory, the AI searches a trusted knowledge base or private database to provide accurate, up-to-date responses.
