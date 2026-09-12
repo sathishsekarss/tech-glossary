@@ -5,6 +5,7 @@ Table of contents
 1. [.KEY file](#.key-file)
 1. [.p12 file](#.p12-file)
 1. [.lic file](#.lic-file)
+1. [.jks file](#.jks-file)
 
 ## .pem-file
 A PEM (Privacy-Enhanced Mail) file is a text-based container file format used to store and transmit cryptographic data, such as SSL/TLS certificates, private keys, public keys, and certificate chains.
@@ -20,3 +21,6 @@ Originally defined by RSA in the Public-Key Cryptography Standards (abbreviated 
 
 ## .lic-file
 A .lic file is a digital software license file used by programs, servers, and networks to verify that a user or system is authorized to run an application.
+
+## .jks-file
+A .jks file stands for Java KeyStore. It is a secure, password-encrypted container file format used by Java-based applications to store cryptographic keys and digital certificates.
