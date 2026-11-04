@@ -4,6 +4,7 @@
 1.[Parameters in LLM](#parameters-in-llm)
 1.[Hugging face](#hugging-face)
 1.[RAG](#rag)
+1.[MCP](#mcp)
 
 ## tokenization-in-llm
 Tokens are the basic building blocks that Large Language Models (LLMs) use to process and generate text. Rather than reading whole words, a model breaks your input into smaller chunks—like subwords or characters—before converting them into numerical vectors to "think" and predict the next output.
@@ -65,3 +66,6 @@ Hugging face site generally contains all the open source LLM models.  We can dow
 
 ## rag
 Retrieval-Augmented Generation (RAG) is an AI technique that improves large language models by fetching facts from external data sources before writing an answer. Instead of relying only on its fixed training memory, the AI searches a trusted knowledge base or private database to provide accurate, up-to-date responses.
+
+## mcp
+The Model Context Protocol (MCP) is an open-source standard created by Anthropic that acts as a universal "USB-C port" for artificial intelligence. It connects AI assistants (like Claude or ChatGPT) to external data sources, tools, and enterprise systems.
